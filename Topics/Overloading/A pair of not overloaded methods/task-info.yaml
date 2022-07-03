@@ -1,10 +1,10 @@
 type: choice
 is_multiple_choice: true
 options:
-- text: int method(int i) { return i; }
-- text: void method(int i) { System.out.println(i); }
 - text: String method(int i, String s) { return s + i; }
+- text: void method(int i) { System.out.println(i); }
 - text: float method(float f) { return f; }
+- text: int method(int i) { return i; }
 files:
 - name: src/Task.java
   visible: true
